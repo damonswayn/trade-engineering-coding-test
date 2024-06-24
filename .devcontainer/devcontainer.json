@@ -1,0 +1,31 @@
+{
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode-remote.remote-containers",
+        "felixfbecker.php-debug",
+        "felixfbecker.php-intellisense",
+        "felixfbecker.php-pack",
+        "bmewburn.vscode-intelephense-client",
+        "editorconfig.editorconfig",
+        "esbenp.prettier-vscode",
+        "ikappas.phpcs",
+        "junstyle.php-cs-fixer",
+        "neilbrayfield.php-docblocker",
+        "recca0120.vscode-phpunit"
+      ],
+      "settings": {
+        "phpunit.php": "/usr/local/bin/php",
+        "phpunit.phpunit": "/workspaces/trade_engineering_coding_test/php/vendor/bin/phpunit",
+        "phpunit.args": [
+          "--configuration",
+          "/workspaces/trade_engineering_coding_test/php/phpunit.xml"
+        ]
+      }
+    }
+  },
+  "postCreateCommand": "composer install --working-dir=php"
+}
