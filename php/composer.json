@@ -1,0 +1,33 @@
+{
+  "name": "catch/trade-engineering-code-test",
+  "description": "The PHP version of the Catch Trade Engineering coding test.",
+  "type": "project",
+  "license": "ISC",
+  "authors": [
+    {
+      "name": "Damon Swayn",
+      "email": "damon.swayn@catch.com.au"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": "^8.3",
+    "ext-bcmath": "*",
+    "ramsey/uuid": "^4.7",
+    "fakerphp/faker": "^1.23"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.2",
+    "phpstan/phpstan": "^1.11"
+  },
+  "autoload": {
+    "psr-4": {
+      "Catch\\TradeEngineering\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Catch\\TradeEngineering\\Tests\\": "tests/"
+    }
+  }
+}
