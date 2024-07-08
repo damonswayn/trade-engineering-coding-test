@@ -4,6 +4,19 @@
 
 You will find two directories in this repository: `php` and `typescript`. Each directory contains a starting structure of a program that you will be required to complete. You have the choice of completing either the `php` version or the `typescript` version. You are not required to complete both.
 
+During the course of the interview, you will be asked to share your screen and you will work through solving this problem in a pair-programming scenario. 
+
+You do not have to complete the entirety of the task within the 90 minute window.
+
+## Candidate Required Tools
+
+To complete this task, the candidate should have access/ability to the following:
+
+1. A text editor to do the work in
+2. Either PHP (version 8.3) or NodeJS (Version 22.x) installed on their machine OR docker installed and an editor from which to use dev-containers (docker desktop + visual studio code recommended)
+3. Microsoft Teams installed and configured to allow for screen sharing
+4. Any generative-AI coding assistants (copilot etc) disabled
+
 ## Task
 
 A variety of special rules can be applied to a customer's Order which modify the final total to be paid.
